@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       appearance={{
         baseTheme: dark,
         variables: { 
-          colorPrimary: "#3371FF",
+          colorPrimary: "#b700ff",
           fontSize: '16px',
         },
       }}
@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <html lang="en" suppressHydrationWarning>
         <body
           className={cn(
-            "min-h-screen font-mono antialiased", // changed to mono
+            " min-h-screen font-mono antialiased", // changed to mono
             fontMono.variable
           )}
         >
