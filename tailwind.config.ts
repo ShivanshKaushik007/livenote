@@ -41,7 +41,8 @@ const config = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans],
+        // Replace sans with mono
+        mono: ['var(--font-mono)', ...fontFamily.mono],
       },
       keyframes: {
         'accordion-down': {
